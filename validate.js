@@ -28,6 +28,9 @@ validateForm=()=>{
         const htmlModal=document.getElementById('successfulRegistration');
         const bootstrapModal=new bootstrap.Modal(successfulRegistration);
         bootstrapModal.show();
+        gamerTag.value="";
+        email.value="";
+        game.value="";
     }
 }
 
