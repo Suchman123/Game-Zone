@@ -65,11 +65,11 @@
                             <option value="lol">League of Legends</option>
                             <option value="cs2">Counter Strike 2</option>
                         </select>
-                        <div class="invalid-feedback text-danger">Please enter a gamer tag</div>
+                        <div class="invalid-feedback text-danger">Please select a game</div>
                     </div>
 
                     <div class= "row justify-content-center">
-                    <button type="submit" class="btn btn-danger" onclick="validateForm()">Submit</button>
+                    <button type="submit" class="btn btn-danger">Submit</button>
                     </div>
                 </form>
                 </div>
@@ -78,6 +78,25 @@
         </div>
     </section>
     
+    <div class="modal" id="successfulRegistration">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark border-secondary">
+                
+                <div class="modal-header bg-black">
+                    <h5 class="modal-title text-danger">Registration Complete</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" py-4 text-center>
+                    <p class="text-white"> You have successfully registered for the <strong class="text-danger">Game Zone E Weekend</strong></p>
+                    <p class="text-secondary">Check your email for a lobby code whenever we build a proper backend</p>
+                </div>
+                <div class="modal-footer bg-black justify-content-center">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">OK</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
     
     
 </body>
